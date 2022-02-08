@@ -3,6 +3,7 @@ import numpy as np
 import face_recognition
 import cv2 as cv
 
+#Change this dir for your own purposes.
 dir = r"D:\Python workspace\Face Recognition Project\Advanced Face Recognition\pictures"
 classNames = [name for name in os.listdir(dir)]
 
